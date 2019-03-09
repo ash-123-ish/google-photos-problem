@@ -55,17 +55,7 @@ public class JavaApplication7 {
         System.out.println(v);
         int sum_of_slideshow=round(h.size()+(v.size()/2));
         System.out.println("Total numnber of Slide Show is "+sum_of_slideshow);
-        for(int k=0;k<sum_of_slideshow;k++)
-        {
-            for(int i=0;i<h.size();i++)
-            {
-             System.out.println(k+" slide contains photo"+h.toArray());
-            }
-            for(int j=0;j<v.size();j=j+2)
-            {
-                System.out.println(k+" slide contains photo"+v.toArray()+"and photo"+v.toArray());
-            }
-        }
+       
     }
     
 }
